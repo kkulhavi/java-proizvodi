@@ -10,7 +10,8 @@ public class Main {
         Proizvod p2=new Proizvod("S10",4500);
         Proizvod p3=new Proizvod("iPhone 10",5500);
         Proizvod p4=new Proizvod("iPhone 11",6500);
-        Proizvod p5=new Proizvod("A70",2500);
+        Proizvod p5=new Proizvod("A71",2950);
+        Proizvod p6=new Proizvod("A70",2500);
 
   //      ArrayList<Proizvod> proizvodi= (ArrayList<Proizvod>) Arrays.asList(p1,p2,p3,p4,p5);
         ArrayList<Proizvod> proizvodi=new ArrayList<>();
@@ -19,6 +20,7 @@ public class Main {
         proizvodi.add(p3);
         proizvodi.add(p4);
         proizvodi.add(p5);
+        proizvodi.add(p6);
 
         //sortiranje uzlazno, silazno
         ArrayList<Proizvod> prSortirani=(ArrayList<Proizvod>) proizvodi.stream()
